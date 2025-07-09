@@ -1,0 +1,89 @@
+@import url(https://db.onlinewebfonts.com/c/f4fdf3f0e0f194e5849034c8481de2fb?family=ClanOT-NarrowNews);
+*{
+    font-family: ClanOT-NarrowNews, Arial;
+    font-weight: 100;
+    text-transform: none;
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-primary{
+    background-color: #d02d37;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-secondary{
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li input{
+    background-color: #4d0308;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    border-radius: 2rem;
+    width: 100%;
+    outline: 2px solid white;
+}
+.navbar-items{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+.navbar-items li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+#logo{
+    width: 25rem;
+}
+.navicons{
+    scale: 2;
+}
+
+#parallax {
+    background-image: url(https://i.ibb.co/Tx3wSfjY/versace-scaled.jpg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 2rem;
+
+}
+footer{
+    background-color: #272626;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+.footer-section{
+    text-align: justify;
+}
