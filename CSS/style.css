@@ -18,6 +18,7 @@
     flex-direction:row;
     align-items: center;
     justify-content: space-between;
+    gap: 2rem;
 }
 .navbar-secondary{
     background-color: #333;
@@ -29,22 +30,12 @@
     align-items: center;
     justify-content: space-between;
 }
-nav ul li input{
-    background-color: #4d0308;
-    color: #fff;
-    border: none;
-    padding: 1rem;
-    font-size: 1.2rem;
-    margin-right: 10px;
-    border-radius: 2rem;
-    width: 100%;
-    outline: 2px solid white;
-}
 .navbar-items{
     display: flex;
     flex-direction: row;
     list-style: none;
     align-items: center;
+    gap: 1rem;
 }
 .navbar-items li a{
     color: white;
@@ -53,10 +44,32 @@ nav ul li input{
     font-size: 1.2rem;
 }
 #logo{
-    width: 25rem;
+    width: 15rem;
 }
 .navicons{
     scale: 2;
+}
+
+#search-bar{
+    background-color: #4d0308;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    border-radius: 2rem;
+    outline: 2px solid white;
+    width: 100%;
+    max-width: 100%;
+}
+
+.search-container {
+    flex: 1;
+    justify-content: center;
+}
+
+.search-container li{
+    width: 60%;
 }
 
 #parallax {
@@ -72,6 +85,16 @@ nav ul li input{
     justify-content: end;
     padding: 2rem;
 
+}
+#categorias {
+    background-color: #fff;
+    color: #000;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 footer{
     background-color: #272626;
